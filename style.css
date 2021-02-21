@@ -1,0 +1,91 @@
+html,body{
+    width: 100%;
+    height: 115%;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fbecc2;
+
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.country, .flags, .results, #Inicio {
+    width: 100%;
+    display: flex;
+    margin: 25px 0px;
+}
+
+.country{
+    justify-content: center;
+}
+
+.country h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.input input {
+    height: 100px;
+    width: 250px;
+    color: white;
+    background-color:#242424;
+    font-size: 40px;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 9px 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+
+    
+}
+
+#hash {
+    font-size: 80px;
+    
+}
+
+#Inicio {
+    justify-content: center;
+    
+}
+ 
+#graf {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+#Inicio button {
+
+    width: 220px;
+    background: #8B2424;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    border: 1px solid #1A264E;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 40px;
+
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
